@@ -49,8 +49,6 @@ The center of the rangoli has the first alphabet letter a, and the boundary has 
 
 **Function Description**
 
-Complete the rangoli function in the editor below.
-
 rangoli has the following parameters:
 
 * int size: the size of the rangoli
