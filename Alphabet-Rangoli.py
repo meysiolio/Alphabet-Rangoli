@@ -3,9 +3,9 @@ def print_rangoli(size):
     alphabet = "abcdefghijklmnopqrstuvwxyz"
 
     L = []
-    for i in range(n):
-        s = "-".join(alphabet[i:n])
-        L.append((s[::-1]+s[1:]).center(4*n-3, "-"))
+    for i in range(size):
+        s = "-".join(alphabet[i:size])
+        L.append((s[::-1]+s[1:]).center(4*size-3, "-"))
         
     print('\n'.join(L[:0:-1]+L))
 
